@@ -28,6 +28,7 @@ module Control
 localparam R_Type = 0;
 localparam I_Type_ADDI = 6'h8;
 localparam I_Type_ORI = 6'h0d;
+localparam I_Type_MOV = 6'h6;
 localparam BEQ = 6'h4;
 localparam BNE = 6'h5;
 reg [10:0] ControlValues;

@@ -27,8 +27,8 @@ localparam R_Type_ADD    = 9'b111_100000;
 localparam I_Type_ADDI   = 9'b100_xxxxxx;
 localparam I_Type_ORI    = 9'b101_xxxxxx;
 localparam BEQ_AND_BNE   = 9'b001_xxxxxx;
-localparam INC_FUNC		 =
-localparam MULP_FUNC		 =
+localparam INC_FUNC		 = 9'b111_100011;
+localparam MULP_FUNC		 = 9'b111_100010;
 
 reg [3:0] ALUControlValues;
 wire [8:0] Selector;
